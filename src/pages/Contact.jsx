@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <>
       <div className='text-start mb-16 '>
-        <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-4">Get in Touch</h1>
+        <h1 class="text-4xl font-bold text-white mb-4">Get in Touch</h1>
         <p class="text-lg text-start text-gray-600 dark:text-gray-300 max-w-2xl">Have a question or want to work together? Feel free to reach out through any of these channels.</p>
       </div>
 

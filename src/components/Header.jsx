@@ -54,8 +54,8 @@ export default function Header() {
             >
               <div className="flex flex-col py-2">
                 <Link onClick={() => setOpen(false)} to="/about" className="px-4 py-2 text-sm text-zinc-300 hover:bg-zinc-700/50 transition">About</Link>
-                <Link onClick={() => setOpen(false)} to="/skills" className="px-4 py-2 text-sm text-zinc-300 hover:bg-zinc-700/50 transition">Skills</Link>
-                <Link onClick={() => setOpen(false)} to="/projects" className="px-4 py-2 text-sm text-zinc-300 hover:bg-zinc-700/50 transition">Projects</Link>
+                {/* <Link onClick={() => setOpen(false)} to="/skills" className="px-4 py-2 text-sm text-zinc-300 hover:bg-zinc-700/50 transition">Skills</Link> */}
+                {/* <Link onClick={() => setOpen(false)} to="/projects" className="px-4 py-2 text-sm text-zinc-300 hover:bg-zinc-700/50 transition">Projects</Link> */}
                 <Link onClick={() => setOpen(false)} to="/contact" className="px-4 py-2 text-sm text-zinc-300 hover:bg-zinc-700/50 transition">Contact</Link>
               </div>
             </div>
