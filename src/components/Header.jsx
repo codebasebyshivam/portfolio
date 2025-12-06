@@ -49,11 +49,11 @@ export default function Header() {
 
             {/* Mobile Dropdown Menu */}
             <div
-              className={`w-full md:hidden absolute top-14 mt-4 md:mt-0 right-0 md:w-44 bg-zinc-800/95 rounded-xl shadow-lg overflow-hidden transition-all duration-300 origin-top-right 
+              className={`w-full md:hidden absolute top-14 mt-2 md:mt-0 right-0 md:w-44 bg-zinc-800/95 rounded-xl shadow-lg overflow-hidden transition-all duration-300 origin-top-right 
               ${open ? "scale-100 opacity-100" : "scale-75 opacity-0 pointer-events-none"}`}
             >
               <div className="flex flex-col py-2">
-                <Link onClick={() => setOpen(false)} to="/about" className="px-4 py-2 text-sm text-zinc-300 hover:bg-zinc-700/50 transition">About</Link>
+                {/* <Link onClick={() => setOpen(false)} to="/about" className="px-4 py-2 text-sm text-zinc-300 hover:bg-zinc-700/50 transition">About</Link> */}
                 {/* <Link onClick={() => setOpen(false)} to="/skills" className="px-4 py-2 text-sm text-zinc-300 hover:bg-zinc-700/50 transition">Skills</Link> */}
                 {/* <Link onClick={() => setOpen(false)} to="/projects" className="px-4 py-2 text-sm text-zinc-300 hover:bg-zinc-700/50 transition">Projects</Link> */}
                 <Link onClick={() => setOpen(false)} to="/contact" className="px-4 py-2 text-sm text-zinc-300 hover:bg-zinc-700/50 transition">Contact</Link>
