@@ -42,7 +42,7 @@ export default function ProfessionalExperience() {
           {experiences.map((company_info, index) => (
             <div key={index} className="bg-zinc-900 rounded-xl p-6">
               <div className="flex flex-col md:flex-row gap-6">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <div className="w-16 h-16 bg-zinc-800 rounded-lg flex items-center justify-center">
                     <img src={company_info.url} alt="Company Logo" />
                   </div>

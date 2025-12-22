@@ -32,7 +32,7 @@ export default function Skills() {
       id="skills"
       className="bg-neutral-900 text-gray-200 py-20 px-6 md:px-10 lg:px-20"
     >
-      <div className = "max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -52,7 +52,7 @@ export default function Skills() {
               className="bg-neutral-800 rounded-2xl p-6 flex flex-col sm:flex-row items-start sm:items-center gap-4 shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <div className="bg-[#FFD700] p-3 rounded-full flex items-center justify-center">
-                  {/* {skill.icon} */}
+                {/* {skill.icon} */}
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-white mb-1">{skill.name}</h3>
